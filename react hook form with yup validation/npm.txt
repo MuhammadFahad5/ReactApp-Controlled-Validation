@@ -1,0 +1,6 @@
+
+
+npm install react-router-dom@latest
+npm i yup
+npm i react-hook-form
+npm install @hookform/resolvers yup

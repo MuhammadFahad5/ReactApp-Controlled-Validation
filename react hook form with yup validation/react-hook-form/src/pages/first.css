@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.border {
+    border: 1px solid grey;
+}
+
+.round {
+    border-radius: 20px;
+
+}
+
+.padding-y {
+    padding: 30px 0px;
+}
+
+.padding-y-small {
+    padding: 12px 0px;
+}
+
+.padding-b {
+    padding-bottom: 30px;
+}
+
+.red {
+    /* color: red */
+    font-size: 0.857rem;
+    color: #ea5455
+}
+
+.border-red {
+    border: 1px solid red;
+}
+
+/* .error-true:focus {
+    background-color: red;
+} */
+
+
+.block {
+    display: block;
+}
+
+.pass-style {
+    display: flex;
+}
+
+.pass-eye {
+    padding: 0.571rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8d6de;
+    border-radius: 0rem 0.357rem 0.357rem 0rem
+}
+
+.pass-input {
+    border-radius: 0.357rem 0rem 0rem 0.357rem !important
+}
+
+/* for react select red border */
+
+.react-select.is-invalid .select__control {
+    border-color: #ea5455;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.is-invalid {
+    border-color: red !important;
+    /* box-shadow: none !important;
+    outline: none !important; */
+}
+
+
+.w-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.m-auto {
+    margin: auto;
+
+}
+
+/* .react-select__control {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #ced4da !important; 
+}
+
+.react-select__control--is-focused {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #ced4da !important; 
+}
+
+.is-invalid .react-select__control {
+    border-color: red !important;
+    box-shadow: none !important;
+    outline: none !important;
+} */
+
+/* .react-select__control--is-focused,
+.react-select__control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #ced4da !important;
+   
+}
+
+/* If there's a validation error, only show red border, no blue focus */
+
+.custom-form {
+    padding: 0.571rem;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #d8d6de;
+    border-radius: 0.357rem;
+}
+
+.custom-form:focus {
+    background-color: #fff;
+    border-color: #203993;
+    outline: none;
+}
+
+.custom-checks {
+    display: flex;
+    gap: 20px;
+}
+
+.custom-form-check {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.upload {
+    font-size: 24px;
+    border: 1px solid #d8d6de;
+    /* padding: 0.571rem 0rem; */
+    width: 100%;
+    /* border-radius: 20px; */
+}
+
+.btn {
+    /* background: #203993; */
+    background: #203993;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
